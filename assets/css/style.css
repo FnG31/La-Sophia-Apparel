@@ -108,8 +108,9 @@ img {
 /* NAVBAR */
 .navbar {
     box-shadow: var(--box-shadow);
-    text-align: center;
-    /* background-color: #1B201E; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
 }
 
 .navbar-nav .nav-link {
