@@ -6,6 +6,10 @@
     --c-dark: #C4BAA6;
     --c-brand: #C4BAA6;
     --c-brand-light: #C4BAA6;
+    --c-brand-twitter: #1DA1F2;
+    --c-brand-instagram: #30618A;
+    --c-brand-facebook: #3b5998;
+    --c-brand-youtube: #FF0000;
     --c-brand-rgb: 97, 97, 97;
     --c-body: #757575;
     --font-base: "ClashDisplay", sans-serif;
@@ -46,6 +50,26 @@ a:hover {
     color: var(--c-brand-light);
 }
 
+#twitter,
+a:hover {
+    color: var(--c-brand-twitter);
+}
+
+#instagram,
+a:hover {
+    color: var(--c-brand-instagram);
+}
+
+#facebook,
+a:hover {
+    color: var(--c-brand-facebook);
+}
+
+#youtube,
+a:hover {
+    color: var(--c-brand-youtube);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -54,7 +78,7 @@ img {
 .section-padding {
     padding-top: 140px;
     padding-bottom: 140px;
-    background: #1B201E;
+    background: #343836;
 }
 
 .theme-shadow {
@@ -154,6 +178,7 @@ img {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px 10px 10px 10px;
     background: rgba(var(--c-brand-rgb), 0.1);
     color: var(--c-brand);
     font-size: 34px;
@@ -188,12 +213,15 @@ img {
 
 .service:hover h5,
 .service:hover p {
-    color: white;
+    color: #1B201E;
+    transition: 1s;
 }
 
 .service:hover .iconbox {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
+    box-shadow: 2px 2px 4px 2px #0000000b;
+    transition: 1s;
 }
 
 /* COUNTER */
