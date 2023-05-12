@@ -9,7 +9,7 @@
     --c-brand-rgb: 97, 97, 97;
     --c-body: #757575;
     --font-base: "ClashDisplay", sans-serif;
-    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
     --transition: all 0.5s ease;
 }
 
@@ -20,8 +20,18 @@ body {
     color: var(--c-body);
 }
 
-h1, h2, h3,h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-weight: 600;
     color: var(--c-dark);
 }
@@ -44,6 +54,7 @@ img {
 .section-padding {
     padding-top: 140px;
     padding-bottom: 140px;
+    background: #1B201E;
 }
 
 .theme-shadow {
@@ -61,8 +72,8 @@ img {
     position: relative;
 }
 
-.image-zoom-wrapper img{
-     transition: var(--transition);
+.image-zoom-wrapper img {
+    transition: var(--transition);
 }
 
 .image-zoom:hover .image-zoom-wrapper img {
@@ -74,6 +85,7 @@ img {
 .navbar {
     box-shadow: var(--box-shadow);
     text-align: center;
+    /* background-color: #1B201E; */
 }
 
 .navbar-nav .nav-link {
@@ -180,7 +192,7 @@ img {
 }
 
 .service:hover .iconbox {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
 
@@ -315,7 +327,7 @@ footer .line {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 100px;
 }
 
@@ -323,4 +335,3 @@ footer .line {
     background-color: var(--c-brand);
     color: rgb(121, 121, 121);
 }
-
